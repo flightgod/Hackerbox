@@ -38,7 +38,7 @@ const int g7 = 3136;
 
 int muted = false;
 int mute_touched = false;
-char ssid[]="HackerBoxer_L33tHaX0r";  //put your handle after the underscore
+char ssid[]="HackerBoxer_fg";  //put your handle after the underscore
 Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC, TFT_MOSI, TFT_CLK, TFT_RST, TFT_MISO);
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIXELPIN, NEO_GRB + NEO_KHZ800);
 char hackers_found[13][70];

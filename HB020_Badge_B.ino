@@ -155,16 +155,16 @@ void found2LCD()
   tft.setCursor(0, 0);
   tft.setTextColor(ILI9341_YELLOW);
   tft.setTextSize(4);
-  tft.println(" Wifi Tags");
+  tft.println(" Badge Tags");
   tft.setTextColor(ILI9341_RED);
   tft.setTextSize(2);
   for (int i=0; i<13; i++)
   {
     tft.print(" ");
-	//if (i.startsWith = ("HackerBoxer") {
-	//	tft.println(hackers_found[i]+12); //+12 to removed "HackerBoxer_"
-	// }
-	//Else
+	if (i.startsWith = ("HackerBoxer") {
+		tft.println(hackers_found[i]+12); //+12 to removed "HackerBoxer_"
+	}
+	else
     tft.println(hackers_found[i]); //+6 to removed "SecKC_"
   }
 }
