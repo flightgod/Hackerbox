@@ -144,7 +144,7 @@ void wifiScan2LCD()
         displaylines--;
       }
     }
-    delay(700); // Wait before scanning again
+    delay(1400); // Wait before scanning again
   }
 }
 
@@ -161,11 +161,11 @@ void found2LCD()
   for (int i=0; i<13; i++)
   {
     tft.print(" ");
-	if (i.startsWith = ("HackerBoxer") {
-		tft.println(hackers_found[i]+12); //+12 to removed "HackerBoxer_"
-	}
-	else
-    tft.println(hackers_found[i]); //+6 to removed "SecKC_"
+//	if ((hackers_found[i]).startsWith = ("HackerBoxer") {
+//		tft.println(hackers_found[i]+12); //+12 to removed "HackerBoxer_"
+//	}
+//	else
+    tft.println(hackers_found[i]+6); //+6 to removed "SecKC_"
   }
 }
 
